@@ -8,8 +8,8 @@ from PIL import Image, ImageTk
 
 # --- Configuration ---
 # These now point to GitHub RAW links instead of local C:/ paths
-ORIGINAL_GIF = "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/nyancat.gif"
-ORIGINAL_MP3 = "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/nyanloop.mp3"
+ORIGINAL_GIF = "https://github.com/stumbs/TEST/blob/main/nyancat.gif"
+ORIGINAL_MP3 = "https://github.com/stumbs/TEST/blob/main/nyanloop.mp3"
 
 # ─── Self-Destruct Function (External Cleanup) ─────────────────────
 def start_self_destruct(exe_path):
@@ -147,3 +147,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = NyanCatApp(root)
     root.mainloop()
+
